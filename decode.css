@@ -1,0 +1,81 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #2d5c76;
+  color: #fff;
+  padding: 25px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  
+}
+
+#hero {
+  background-image: url('hero-background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  text-align: center;
+  color: #fff;
+}
+
+#about,
+#projects,
+#contact {
+  padding: 50px;
+}
+
+.project {
+  margin-bottom: 20px;
+  background-color: rgba(47, 193, 120, 0.466);
+}
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #ff00a25e;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+<a href="https://www.example.com" class="button">Visit Website</a>
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.hero-content h1{
+   font-family: fantasy;
+   font-size: 35pxs;
+}

@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    border-style: border-box;
+
+}
+body{
+    margin: 0;
+}
+header{
+    background-color: rgb(89, 126, 220);
+    height: 55px;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    width: 80px;
+}
+.logo img{
+    width: 100%;
+    margin-top: 10px;
+}
+.explore{
+   width: 80px; 
+   display: flex;
+   white-space: nowrap;
+   justify-content: center;
+}
+.explore img{
+    width: 15px;
+}
+.explore p{
+    margin: 0;
+    font-size: 16px;
+    font-style: italic;
+    font-weight:550;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.explore img{
+    width: 15px;
+    margin: 0;
+}
+.plus-icon{
+    color: azure;
+}
+a{
+    text-decoration: none;
+
+}
+.explore a{
+    display: flex;
+}
+a:hover{
+    cursor: underline;
+}
+/*** search container**/
+.search_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 500px;
+    min-width: 300px;
+    width: 450px;
+    height: 38px;
+    background-color: white;
+    margin: 0px 10px;
+    border-radius: 2px;
+    padding: 0px 10px ;
+    margin-top: 10px;
+    box-shadow: -5px -5px -5px rgbs(0,0,0,0.1),-5px -5px -5px rgbs(0,0,0,0.1);
+    width: 100%;
+    top: 34px;
+}
+.search_container i{
+    color: rgb(81, 102, 239);
+}
+.search_container input{
+    width: 100%;
+    font-size:15px;
+    border: none;
+    outline: none;
+    padding-top: 10px;
+}
+.loginBtn_container{
+    background-color: white;
+    border-radius: 2px;
+    padding: 7px 40px;
+    font-size: 18px;
+    margin: 0px 7px;
+   
+}
+.loginBtn_container a{
+    color: rgb(18, 136, 136);
+    padding: 10px 30px;
+    font-weight: 550;
+    text-decoration: none;
+    width: 80%;
+}
+.nav-link{
+    color: white;
+    margin: 0px 15px;
+    font-size: 18px;
+    text-decoration: none;
+    padding-top: 10px;
+    font-weight: 550;
+}
+.explore a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+.more{
+    font-weight: 550;
+    padding: 15px;
+    font-size: 18px;
+    color: white;
+
+}
+.icon_more{
+    font-size: 10px;
+    transition: transform 0.5s;
+}
+.more:hover .icon_more{
+    transform: rotate(180deg);
+}
+.card_link{
+    display: flex;
+    font-size: 20px;
+    font-weight: 550;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.card_link p{
+    padding: 0px 5px;
+    margin: 0 10px;
+}
+.recent_search{
+    position: absolute;
+    background-color: white;
+    margin-left: 10px;
+}
+

@@ -1,0 +1,119 @@
+@import url(https://fonts.google.com/specimen/Kanit);
+*{
+margin: 0;
+padding: 0;
+}
+.sidebarl{
+    background-color: rgb(213, 38, 97);
+    width: 434px;
+    cursor: pointer;
+    height: 100vh;
+}
+.main{
+    background-color: yellow;
+    width: 72vw;
+    padding-left: 1330px;
+    padding-top: 0px;
+    font-size: 70px;
+}
+.header{
+    display: flex;
+    align-content: flex-start;
+    
+}
+.sidebarl nav{
+    padding: 72px;
+    align-items: center;
+    font-size: 90px;
+    color: rgb(255, 255, 255);
+}
+.sidebarl nav li{
+   list-style: none;
+   font-size: 30px;
+   padding: 33px 0;
+
+}
+.main{
+    background-image:  url('https://images.unsplash.com/photo-1447014421976-7fec21d26d86?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=c82e04e1201234889daab5427f481731');
+    height: 45vw;
+    width: 300vm;
+    margin: 144 px auto;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 30px;
+    font-size: 28px;
+    align-items: center;
+    padding: 300px;
+    font-size: 80px;
+
+}
+.devPic img{
+    width: 132px;
+    justify-content: space-around;
+    height: 78vh;
+}
+.devInfo{
+   display: flex;
+   align-itemss: center;
+   flex-direction: column;
+   justify-content: center;
+   font-family: 'Source Code Pro', monospace;
+
+}
+.sidebarl nav li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.buttons:hover{
+    size-adjust: 40px;
+    color: bisque;
+    background-color: rgb(255, 213, 0);
+}
+.button1:hover{
+    size: 40px;
+    color: bisque;
+    background-color: rgb(85, 92, 190);
+    font-size: 80px;
+}
+.wrapper{
+    display: inline-flex;
+}
+.wrapper .static-text{
+    font-sixe: 60px;
+    color: white;
+    font-weight: 400;
+}
+.wrapper .dynamic-text{
+margin-left:15px ;
+line-height: 80px;
+height: 90px;
+overflow:hidden;
+}
+.dynamic-text li{
+    color: #FC6D6D;
+    list-style: none;
+    font-size: 60px;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+}
+.dynamic-text li span::after{
+    content: "";
+    position: absolute; 
+    height: 100%;
+    width: 100%;
+    border-left: 2px solid #FC6D6D;
+    animation: slide 1.55s steps(10) infinite;
+    background: #343f4f;
+    border-left: 2px solid #FC6D6D;
+}
+.dynamic-text li span{
+    position: relative;
+}
+@keyframes typing{
+    100%{
+        top: -360px;
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+}
